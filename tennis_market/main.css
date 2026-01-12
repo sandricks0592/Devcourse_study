@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.intro {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.intro a {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.card-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+/* 카드 박스 */
+.card {
+    width: 300px;
+    text-align: center;
+}
+
+/* 이미지 크기 */
+.card_img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;   /* 이미지가 박스에 꽉 맞게 */
+    border: 1px solid #ccc;
+}
+
+/* 타이틀 */
+.card_title {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* 버튼 스타일 */
+.card_button {
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+}
